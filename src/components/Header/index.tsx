@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Header: React.FC = () => {
   return (
     <div className="h-[65px] w-full border-b">
-      <div className="w-full w-max-scr-desktop mx-auto my-0 h-full flex justify-between items-center py-0 px-[25px] bg-background">
+      <div className="w-full max-w-screen-2xl mx-auto my-0 h-full flex justify-between items-center py-0 px-[25px] bg-background">
         <div className="flex items-center">
           <Logo size={24}></Logo>
           <Link to={'/'}>
